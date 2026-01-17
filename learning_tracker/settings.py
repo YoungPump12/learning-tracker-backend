@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-^p5m46thoi6a^0*pf$!8v$pl4*h4dqlcl(uhqsjhf5)8_woxvf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "learning-tracker-api-oahc.onrender.com"
+]
+
 
 
 # Application definition
